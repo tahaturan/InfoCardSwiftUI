@@ -11,6 +11,10 @@
 		5FA17C442A9FF44600B263C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA17C432A9FF44600B263C2 /* ContentView.swift */; };
 		5FA17C462A9FF44700B263C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA17C452A9FF44700B263C2 /* Assets.xcassets */; };
 		5FA17C492A9FF44700B263C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA17C482A9FF44700B263C2 /* Preview Assets.xcassets */; };
+		5FA17C512A9FF87F00B263C2 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FA17C502A9FF87F00B263C2 /* Pacifico-Regular.ttf */; };
+		5FA17C532A9FFA0E00B263C2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA17C522A9FFA0E00B263C2 /* Launch Screen.storyboard */; };
+		5FA17C592A9FFD4000B263C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA17C582A9FFD4000B263C2 /* Constants.swift */; };
+		5FA17C5C2AA00AA300B263C2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA17C5B2AA00AA300B263C2 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		5FA17C432A9FF44600B263C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FA17C452A9FF44700B263C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FA17C482A9FF44700B263C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FA17C502A9FF87F00B263C2 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		5FA17C522A9FFA0E00B263C2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5FA17C562A9FFC6700B263C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5FA17C582A9FFD4000B263C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5FA17C5B2AA00AA300B263C2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		5FA17C402A9FF44600B263C2 /* InfoCardSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5FA17C5A2AA00A8100B263C2 /* widgets */,
+				5FA17C4F2A9FF84F00B263C2 /* fonts */,
+				5FA17C572A9FFD2300B263C2 /* Constants */,
+				5FA17C562A9FFC6700B263C2 /* Info.plist */,
 				5FA17C412A9FF44600B263C2 /* InfoCardSwiftUIApp.swift */,
 				5FA17C432A9FF44600B263C2 /* ContentView.swift */,
+				5FA17C522A9FFA0E00B263C2 /* Launch Screen.storyboard */,
 				5FA17C452A9FF44700B263C2 /* Assets.xcassets */,
 				5FA17C472A9FF44700B263C2 /* Preview Content */,
 			);
@@ -65,6 +79,30 @@
 				5FA17C482A9FF44700B263C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FA17C4F2A9FF84F00B263C2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5FA17C502A9FF87F00B263C2 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		5FA17C572A9FFD2300B263C2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5FA17C582A9FFD4000B263C2 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5FA17C5A2AA00A8100B263C2 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				5FA17C5B2AA00AA300B263C2 /* InfoView.swift */,
+			);
+			path = widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA17C512A9FF87F00B263C2 /* Pacifico-Regular.ttf in Resources */,
 				5FA17C492A9FF44700B263C2 /* Preview Assets.xcassets in Resources */,
+				5FA17C532A9FFA0E00B263C2 /* Launch Screen.storyboard in Resources */,
 				5FA17C462A9FF44700B263C2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA17C5C2AA00AA300B263C2 /* InfoView.swift in Sources */,
 				5FA17C442A9FF44600B263C2 /* ContentView.swift in Sources */,
 				5FA17C422A9FF44600B263C2 /* InfoCardSwiftUIApp.swift in Sources */,
+				5FA17C592A9FFD4000B263C2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +312,7 @@
 				DEVELOPMENT_TEAM = UKXQYP47Y9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfoCardSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +342,7 @@
 				DEVELOPMENT_TEAM = UKXQYP47Y9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfoCardSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
