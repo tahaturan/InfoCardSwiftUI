@@ -28,6 +28,8 @@
 		5FA17C562A9FFC6700B263C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5FA17C582A9FFD4000B263C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5FA17C5B2AA00AA300B263C2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5FEEC1092AA1123700846203 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FEEC10A2AA1126F00846203 /* Readme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Readme.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		5FA17C402A9FF44600B263C2 /* InfoCardSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5FEEC10A2AA1126F00846203 /* Readme.png */,
 				5FA17C5A2AA00A8100B263C2 /* widgets */,
 				5FA17C4F2A9FF84F00B263C2 /* fonts */,
 				5FA17C572A9FFD2300B263C2 /* Constants */,
@@ -69,6 +72,7 @@
 				5FA17C522A9FFA0E00B263C2 /* Launch Screen.storyboard */,
 				5FA17C452A9FF44700B263C2 /* Assets.xcassets */,
 				5FA17C472A9FF44700B263C2 /* Preview Content */,
+				5FEEC1092AA1123700846203 /* README.md */,
 			);
 			path = InfoCardSwiftUI;
 			sourceTree = "<group>";

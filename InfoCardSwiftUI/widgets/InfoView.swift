@@ -21,6 +21,7 @@ struct InfoView: View {
                     .foregroundColor(.green)
                     .padding(.trailing, 5.0)
                 Text(text)
+                    .foregroundColor(.black)
             }
             )
     }
